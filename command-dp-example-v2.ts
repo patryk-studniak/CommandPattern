@@ -7,7 +7,7 @@ interface Command {
 }
 
 interface ModifyCommandConfig {
-    receiver: object;
+    receiver: Object;
     changedValue: string;
     modificationType: string;
 }
